@@ -1,0 +1,11 @@
+<h1>Registrar usuario</h1>
+<h2>Email</h2>
+<input type="text" [(ngModel)]="email">
+{{email}}
+<h2>Password</h2>
+<input type="password" [(ngModel)]="password">
+{{password}}
+<h2>Repeat Password</h2>
+<input type="password" [(ngModel)]="repeat">
+{{repeat}}
+<button (click)="comprobar()">Enviar datos</button>

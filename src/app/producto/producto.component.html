@@ -1,0 +1,20 @@
+<h1>Ingreso de Producto a Stock</h1>
+<h2>Descripción</h2>
+<input type="text" [(ngModel)]="descripcion">
+{{descripcion}}
+<h2>CODIGO</h2>
+<input type="text" [(ngModel)]="codigo">
+{{codigo}}
+<h2>PRECIO COSTO</h2>
+<input type="text" [(ngModel)]="precioCosto">
+{{precioCosto}}
+<h2>PRECIO VENTA 5</h2>
+<input type="text" [(ngModel)]="precioVenta">
+{{precioVenta}}
+<h2>STOCK IDEAL</h2>
+<input type="text" [(ngModel)]="stockIdeal">
+{{stockIdeal}}
+
+<button (click)="ingresar()">INGRESAR</button>
+<button (click)="nada()">MODIFICAR</button>
+<button (click)="nada()">SALIR</button>
